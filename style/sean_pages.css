@@ -1,6 +1,7 @@
 .product_title {
   text-align: center;
   font-size: 2em;
+  margin-bottom: 50px;
 }
 
 section {
@@ -13,11 +14,6 @@ section img.product {
   border-style: double;
   border-color: #ffd700;
   width: 500px;
-}
-
-section img.icon {
-  width: 280px;
-  margin-bottom: 20px;
 }
 
 .cbloc {
