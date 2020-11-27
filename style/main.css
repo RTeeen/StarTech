@@ -7,12 +7,15 @@ body {
 .flex {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-h1,
-h2,
 p {
   color: #e5e4e2;
+}
+
+h1, h2, h3 {
+  color: #ffd700;
 }
 
 nav {

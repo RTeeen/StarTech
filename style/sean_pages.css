@@ -1,0 +1,47 @@
+.product_title {
+  text-align: center;
+  font-size: 2em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+section img.product {
+  border-radius: 20px;
+  border-style: double;
+  border-color: #ffd700;
+  width: 500px;
+}
+
+section img.icon {
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+.cbloc {
+  width: 500px;
+}
+
+.content_flex p {
+  font-size: 1.5em;
+}
+
+.specs {
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.spec_title {
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+.content_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
