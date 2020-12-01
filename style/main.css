@@ -1,8 +1,9 @@
 body {
   margin: 0 auto;
   max-width: 1280px;
-  background-color: black;
+  background-image: url("https://i.redd.it/t9ewya9f29n01.png");
 }
+
 
 .flex {
   display: flex;
@@ -17,32 +18,81 @@ p {
 h1, h2, h3 {
   color: #ffd700;
 }
+#logo{
+
+  width: 90px;
+  margin-left: 37px;
+  
+}
+#entrance{
+max-width: 1280px;
+  
+  
+ }
+#eimage{
+  max-width:100%;
+max-height:100%;
+  filter: sepia(100%);
+}
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-  width: 700px;
+
+  height: 60px;
+  border-color: gold;
+  border-radius: 20px;
+  border-style: double;
+  border-width: 2px;
+  background: url("../assets/NavBackground.jpg");
+  background-size: contain;
+  background-repeat: repeat;
   margin: auto;
+  overflow: hidden;
 }
 
 nav a {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: 150px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-right: 25px;
+  margin-left: 30px ;
+  width: 75px;
   text-align: center;
-  background-color: black;
-  color: #ffd700;
+  color: black;
   text-decoration: none;
-  border-radius: 10px;
-  border-style: solid;
-  border-width: thin;
-  font-size: 1.5em;
+  border-radius: 25px;
+  border-style: none;
+  background: radial-gradient(gold 0%, #e5e4e3 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0em 100%;
+  transition: background-size 0.25s ease-in;
+ 
+  font-size: 0.9em;
+}
+a:hover{
+  background-size: 100% 88%;
+  
+  transition: background-size 0.75s;
+
 }
 
-nav a.active {
-  color: black;
-  background-color: #ffd700;
+header strong{
+  position: absolute;
+  z-index: 1;
+  color: gold;
+  font-size: 2.0em;
+  top: 40%;
+  left: 3%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
 }
 
 section {
@@ -51,6 +101,10 @@ section {
   border-color: #ffd700;
   display: flex;
   padding: 20px;
+  margin-top: 20px;
+}
+iframe{
+  position: relative;
 }
 
 .img_wrap {
