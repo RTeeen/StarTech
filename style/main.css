@@ -63,6 +63,7 @@ nav {
   background-repeat: repeat;
   margin: auto;
   overflow: hidden;
+  z-index: 500;
 }
 
 nav a {

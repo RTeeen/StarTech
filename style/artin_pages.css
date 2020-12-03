@@ -6,13 +6,29 @@ header{
 
 #elogo{
     top: 220px;
-    width: 550px;
+    max-width: 500px;
     position: absolute;
 }
 #intro{
     position: absolute;
     left: 20px;
     top: 1000px;
-    font-size: 25px;
+    font-size: 40px;
     justify-content: center;
+}
+section{
+    max-width: 1000px;
+    position: relative;
+    margin-left: 8%;
+}
+#cart{
+    width: 40px;
+    margin-left: 550px; 
+}
+.img_wrap{
+
+    background-color: black;
+    border-color: gold;
+    border-style: solid;
+
 }
