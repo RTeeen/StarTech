@@ -5,10 +5,12 @@ let Navbar = document.getElementById("navbar");
 let pageContent = document.getElementById("content");
 var photoRotate = document.getElementById('eimage');
 
-
+var path = window.location.pathname;
+var pages = path.split("/").pop();
+console.log( pages );
 
 window.onscroll = function() {
-
+if(pages == "index.html"){
   photo.style.transform = "rotate("+window.pageYOffset/15+"deg)";
   console.log(window.pageYOffset);
   if ( window.pageYOffset > 1000 ) {
@@ -26,5 +28,9 @@ window.onscroll = function() {
     navbar.classList.remove("sticky");
     pageContent.classList.remove("content");
   }
+}else{
+  navbar.classList.add("sticky");
+  pageContent.classList.add("content");
+}
 
 }
