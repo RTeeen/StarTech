@@ -1,0 +1,18 @@
+header{
+ background-color: black;
+ background-size: contain;
+ height: 1600px;
+}
+
+#elogo{
+    top: 220px;
+    width: 550px;
+    position: absolute;
+}
+#intro{
+    position: absolute;
+    left: 20px;
+    top: 1000px;
+    font-size: 25px;
+    justify-content: center;
+}

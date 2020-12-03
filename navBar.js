@@ -1,19 +1,30 @@
-// When the user scrolls the page, execute myFunction
-window.onscroll = function () {
-  myFunction();
-};
 
-// Get the navbar
-var navbar = document.getElementById("navbar");
 
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
+let photo = document.getElementById("eimage");
+let Navbar = document.getElementById("navbar");
+let pageContent = document.getElementById("content");
+var photoRotate = document.getElementById('eimage');
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
+
+
+window.onscroll = function() {
+
+  photo.style.transform = "rotate("+window.pageYOffset/15+"deg)";
+  console.log(window.pageYOffset);
+  if ( window.pageYOffset > 1000 ) {
+    console.log("hello");
+      photoRotate.style.position = "absolute";
+      photoRotate.style.marginTop ="1080px";
+  } else {
+    photoRotate.style.position = "fixed";
+    photoRotate.style.marginTop ="80px";
+  }
+  if (window.pageYOffset >= 1600) {
     navbar.classList.add("sticky");
+    pageContent.classList.add("content");
   } else {
     navbar.classList.remove("sticky");
+    pageContent.classList.remove("content");
   }
+
 }
