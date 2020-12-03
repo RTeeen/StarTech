@@ -7,6 +7,10 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="./style/main.css" />
     <link rel="stylesheet" href="./style/sean_pages.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Major+Mono+Display&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Startech</title>
   </head>
@@ -41,30 +45,47 @@
             the internet like how USS Enterprise navigate the galaxy.<br />
             <br />
             It comes with the highest grade aluminium, and the best Intel CPU
-            chip in the industry, all for a small price of $1000.
+            chip in the industry, all for a small price of $1000.<span
+              class="sspecs"
+              tg="usse"
+              onclick="togglespecs(event)"
+              >See&nbsp;specifications</span
+            >
           </p>
         </div>
       </div>
-      <div class="specs">
+      <div class="specs" id="usse">
         <div>
           <h3 class="spec_title">Price</h3>
           <p class="desc">$1000</p>
         </div>
+        <div class="vertical"></div>
+
         <div>
           <h3 class="spec_title">Dimension</h3>
-          <p class="desc">15"</p>
+          <p class="desc">15"<br />(PixSense)</p>
         </div>
+        <div class="vertical"></div>
+
         <div>
           <h3 class="spec_title">Storage</h3>
-          <p class="desc">500GB</p>
+          <p class="desc">500GB<br />(NVMe SSD)</p>
         </div>
+        <div class="vertical"></div>
+
         <div>
           <h3 class="spec_title">Ram</h3>
-          <p class="desc">16GM</p>
+          <p class="desc">16GM<br />(LPDDR4x)</p>
         </div>
+        <div class="vertical"></div>
+
         <div>
           <h3 class="spec_title">CPU</h3>
-          <p class="desc">3.6GHz</p>
+          <p class="desc">3.6GHz<br />(i7-1065G7)</p>
+        </div>
+        <div class="vertical"></div>
+        <div class="btn_wrap">
+          <button class="addcart">Add to cart</button>
         </div>
       </div>
     </section>
@@ -87,30 +108,100 @@
             Unleash the power of a Star Destroyer with our mightly Interdictor
             Cruiser model. Its 4.6 GHz processor is enough to send you to
             hyperspace through your browser. Playing games will also be an
-            amazing experience. Time to level up!
+            amazing experience. Time to level up!<span
+              class="sspecs"
+              tg="sdi"
+              onclick="togglespecs(event)"
+              >See&nbsp;specifications</span
+            >
           </p>
         </div>
       </div>
-      <div class="specs">
+      <div class="specs" id="sdi">
         <div>
           <h3 class="spec_title">Price</h3>
           <p class="desc">$2000</p>
         </div>
+        <div class="vertical"></div>
+
         <div>
           <h3 class="spec_title">Dimension</h3>
-          <p class="desc">17"</p>
+          <p class="desc">17"<br />(FHD display)</p>
         </div>
+        <div class="vertical"></div>
+
         <div>
           <h3 class="spec_title">Storage</h3>
-          <p class="desc">1TB</p>
+          <p class="desc">1TB<br />(PCIe NVMe)</p>
         </div>
+        <div class="vertical"></div>
+
         <div>
           <h3 class="spec_title">Ram</h3>
-          <p class="desc">16GM</p>
+          <p class="desc">16GM<br />(SDRAM)</p>
         </div>
+        <div class="vertical"></div>
+
         <div>
           <h3 class="spec_title">CPU</h3>
-          <p class="desc">4.6GHz</p>
+          <p class="desc">4.6GHz<br />(i7-10750H)</p>
+        </div>
+        <div class="vertical"></div>
+        <div class="btn_wrap">
+          <button class="addcart">Add to cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="product_title">Or customize your own!</h2>
+      <div class="content_flex">
+        <div class="cbloc left">
+          <img width="500px" src="./assets/customlaptop.png" alt="" />
+          <!-- https://www.subpng.com/png-34mijs/download.html-->
+        </div>
+        <div class="cbloc right">
+          <!-- https://www.vhv.rs/viewpic/hhhTxi_star-wars-interdictor-star-destroyer-hd-png-download/ -->
+          <p>
+            Don't see anything you like? You can also customize your own
+            specifications for your laptop.
+            <br /><br />Please contact us for options and pricings. Our
+            qualified team is more than happy to assist you.
+          </p>
+        </div>
+      </div>
+      <div class="specustom" id="sdi">
+        <div>
+          <h3 class="spec_title">Price</h3>
+          <p class="desc">?</p>
+        </div>
+        <div class="vertical"></div>
+
+        <div>
+          <h3 class="spec_title">Dimension</h3>
+          <p class="desc">?</p>
+        </div>
+        <div class="vertical"></div>
+
+        <div>
+          <h3 class="spec_title">Storage</h3>
+          <p class="desc">?</p>
+        </div>
+        <div class="vertical"></div>
+
+        <div>
+          <h3 class="spec_title">Ram</h3>
+          <p class="desc">?</p>
+        </div>
+        <div class="vertical"></div>
+
+        <div>
+          <h3 class="spec_title">CPU</h3>
+          <p class="desc">?</p>
+        </div>
+        <div class="vertical"></div>
+        <div class="btn_wrap">
+          <button class="addcart">Contact Us</button>
         </div>
       </div>
     </section>

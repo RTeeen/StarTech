@@ -7,7 +7,10 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="./style/main.css" />
     <link rel="stylesheet" href="./style/sean_pages.css" />
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Major+Mono+Display&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Startech</title>
   </head>
   <body>
@@ -43,29 +46,43 @@
             <br />
             <br />
             It is so powerful, it's like having a baby Yoda in your pocket!
+            <span class="sspecs" tg="yodaspecs" onclick="togglespecs(event)"
+              >See&nbsp;specifications</span
+            >
           </p>
         </div>
       </div>
-      <div class="specs">
+      <div class="specs" id="yodaspecs">
         <div>
           <h3 class="spec_title">Price</h3>
           <p class="desc">$900</p>
         </div>
+        <div class="vertical"></div>
         <div>
           <h3 class="spec_title">Dimension</h3>
-          <p class="desc">6"</p>
+          <p class="desc">6"<br />(LCD screen)</p>
         </div>
+        <div class="vertical"></div>
         <div>
           <h3 class="spec_title">Storage</h3>
-          <p class="desc">256GB</p>
+          <p class="desc">256GB<br />(Internal SSD)</p>
         </div>
+        <div class="vertical"></div>
+
         <div>
           <h3 class="spec_title">Camera</h3>
-          <p class="desc">12MP</p>
+          <p class="desc">12MP<br />(3D depth)</p>
         </div>
+        <div class="vertical"></div>
+
         <div>
           <h3 class="spec_title">Processor</h3>
-          <p class="desc">A14</p>
+          <p class="desc">A14<br />(Dual cores)</p>
+        </div>
+        <div class="vertical"></div>
+
+        <div class="btn_wrap">
+          <button class="addcart">Add to cart</button>
         </div>
       </div>
     </section>
@@ -87,34 +104,104 @@
             most smooth experience, whether it is playing games, watching
             videos, or anything you can imagine. <br /><br />
 
-            Go big or go home!
+            Go big or go home!<span
+              class="sspecs"
+              tg="DS5000"
+              onclick="togglespecs(event)"
+              >See&nbsp;specifications</span
+            >
           </p>
         </div>
       </div>
-      <div class="specs">
+      <div class="specs" id="DS5000">
         <div>
           <h3 class="spec_title">Price</h3>
           <p class="desc">$1500</p>
         </div>
+        <div class="vertical"></div>
+
         <div>
           <h3 class="spec_title">Dimension</h3>
-          <p class="desc">8"</p>
+          <p class="desc">8"<br />(570 ppi)</p>
         </div>
+        <div class="vertical"></div>
+
         <div>
           <h3 class="spec_title">Storage</h3>
-          <p class="desc">512GB</p>
+          <p class="desc">512GB<br />(LG SSD)</p>
         </div>
+        <div class="vertical"></div>
+
         <div>
           <h3 class="spec_title">Camera</h3>
-          <p class="desc">Dual 12MP</p>
+          <p class="desc">Dual 12MP<br />(image stabilization)</p>
         </div>
+        <div class="vertical"></div>
+
         <div>
           <h3 class="spec_title">Processor</h3>
-          <p class="desc">Exynos 1080</p>
+          <p class="desc">Exynos 1080<br />(2.2 GHz)</p>
+        </div>
+        <div class="vertical"></div>
+
+        <div class="btn_wrap">
+          <button class="addcart">Add to cart</button>
         </div>
       </div>
     </section>
+    <section>
+      <h2 class="product_title">Or customize your own!</h2>
+      <div class="content_flex">
+        <div class="cbloc left">
+          <img width="500px" src="./assets/cphone.png" alt="" />
+          <!-- https://www.subpng.com/png-f47yb8/download.html-->
+        </div>
+        <div class="cbloc right">
+          <!-- https://www.vhv.rs/viewpic/hhhTxi_star-wars-interdictor-star-destroyer-hd-png-download/ -->
+          <p>
+            Don't see anything you like? You can also customize your own
+            specifications for your smartphone.
+            <br /><br />Please contact us for options and pricings. Our
+            qualified team is more than happy to assist you.
+          </p>
+        </div>
+      </div>
+      <div class="specustom" id="sdi">
+        <div>
+          <h3 class="spec_title">Price</h3>
+          <p class="desc">?</p>
+        </div>
+        <div class="vertical"></div>
 
+        <div>
+          <h3 class="spec_title">Dimension</h3>
+          <p class="desc">?</p>
+        </div>
+        <div class="vertical"></div>
+
+        <div>
+          <h3 class="spec_title">Storage</h3>
+          <p class="desc">?</p>
+        </div>
+        <div class="vertical"></div>
+
+        <div>
+          <h3 class="spec_title">Camera</h3>
+          <p class="desc">?</p>
+        </div>
+        <div class="vertical"></div>
+
+        <div>
+          <h3 class="spec_title">Processor</h3>
+          <p class="desc">?</p>
+        </div>
+        <div class="vertical"></div>
+
+        <div class="btn_wrap">
+          <button class="addcart">Contact us</button>
+        </div>
+      </div>
+    </section>
     <footer>
       <div class="flex foot_wrapper">
         <p>Disclaimer: Not a real website. Project demo only</p>

@@ -2,8 +2,21 @@ body {
   margin: 0 auto;
   max-width: 1280px;
   background-image: url("https://i.redd.it/t9ewya9f29n01.png");
+  font-family: "Space Grotesk", sans-serif;
 }
 
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: "Goldman", cursive;
+}
+
+body .desc {
+  font-family: "Major Mono Display", monospace;
+}
 
 .flex {
   display: flex;
@@ -15,23 +28,21 @@ p {
   color: #e5e4e2;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #ffd700;
 }
-#logo{
-
+#logo {
   width: 90px;
   margin-left: 37px;
-  
 }
-#entrance{
-max-width: 1280px;
-  
-  
- }
-#eimage{
-  max-width:100%;
-max-height:100%;
+#entrance {
+  max-width: 1280px;
+}
+#eimage {
+  max-width: 100%;
+  max-height: 100%;
   filter: sepia(100%);
 }
 
@@ -56,7 +67,7 @@ nav a {
   padding-top: 7px;
   padding-bottom: 7px;
   margin-right: 25px;
-  margin-left: 30px ;
+  margin-left: 30px;
   width: 75px;
   text-align: center;
   color: black;
@@ -68,25 +79,24 @@ nav a {
   background-size: 100% 0.2em;
   background-position: 0em 100%;
   transition: background-size 0.25s ease-in;
- 
+
   font-size: 0.9em;
 }
-a:hover{
+a:hover {
   background-size: 100% 88%;
-  
-  transition: background-size 0.75s;
 
+  transition: background-size 0.75s;
 }
 a:active{
   background: radial-gradient(#e5e4e3 0%, #e5e4e3 100%);
   background-size: 100% 88%;
 }
 
-header strong{
+header strong {
   position: absolute;
   z-index: 1;
   color: gold;
-  font-size: 2.0em;
+  font-size: 2em;
   top: 40%;
   left: 3%;
 }
@@ -107,7 +117,7 @@ section {
   padding: 20px;
   margin-top: 20px;
 }
-iframe{
+iframe {
   position: relative;
 }
 
