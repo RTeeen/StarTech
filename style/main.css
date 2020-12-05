@@ -15,7 +15,7 @@ body h6 {
 }
 
 body .desc {
-  font-family: "Major Mono Display", monospace;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .flex {
@@ -46,8 +46,10 @@ h3 {
   position: fixed;
   margin-top: 80px;
   margin-left: 50%;
+  animation:spin 70s linear infinite;
+  
 }
-
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }}
 nav {
   display: flex;
   justify-content: left;
