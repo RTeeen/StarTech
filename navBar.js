@@ -11,7 +11,7 @@ console.log( pages );
 
 window.onscroll = function() {
 if(pages == "index.html"){
-  photo.style.transform = "rotate("+window.pageYOffset/15+"deg)";
+  photo.style.transform = "rotate("+window.pageYOffset/20+"deg)";
   console.log(window.pageYOffset);
   if ( window.pageYOffset > 1000 ) {
     console.log("hello");
@@ -33,4 +33,7 @@ if(pages == "index.html"){
   pageContent.classList.add("content");
 }
 
+}
+function contactus(event){
+  alert("Phone: (778) 123 4567 \n Email: support@startech.ca");
 }

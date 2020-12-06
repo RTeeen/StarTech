@@ -57,3 +57,82 @@ footer .foot_wrapper {
     margin-left: 8%;
     margin-top: 20px;
 }
+#work{
+    color: white;
+}
+#bcit2{
+    margin-top: 15px;
+    max-width: 60%;
+    border: double 2px gold;
+}
+#bcit{
+    margin-top: 15px;
+    max-width: 100%;
+    border: double 2px gold;
+}
+iframe{
+    border: gold;
+    margin-top: 20px;
+
+    max-width: 100%;
+}
+#bcit3{
+    margin-top: 15px;
+max-width: 100%;
+    border: double 2px gold;
+}
+#storefront{
+    margin-left: 15px;
+}
+#TextBox{
+
+    margin: 5px;
+
+}
+#Save{  
+    background-color: gold; 
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 5px 5px;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    margin-left: 20px;
+
+  
+
+}
+#Cancel{
+    margin-top: 20px;
+    margin-left: 120px;
+    background-color: gold; 
+    border-radius: 8px;
+    padding: 5px 5px;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+   
+}
+#title{
+    width: 90%;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-bottom: 10px;
+border: none;
+   margin-left: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+
+}
+
+input[type=text]{
+    margin-top: 20px;
+    width: 90%;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-bottom: 60px;
+border: none;
+   margin-left: 10px;
+    border-radius: 4px;
+
+}
