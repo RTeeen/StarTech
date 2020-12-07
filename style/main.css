@@ -92,7 +92,7 @@ nav a.cart {
 #cart{
   width: 40px;
   position: relative;
-  left: 66%; 
+  /* left: 66%;  */
 }
 a:hover {
   background-size: 100% 88%;
