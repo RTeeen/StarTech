@@ -16,7 +16,7 @@ if(pages == "index.html"){
   if ( window.pageYOffset > 1000 ) {
     console.log("hello");
       photoRotate.style.position = "absolute";
-      photoRotate.style.marginTop ="1080px";
+      photoRotate.style.marginTop ="980px";
   } else {
     photoRotate.style.position = "fixed";
     photoRotate.style.marginTop ="80px";
