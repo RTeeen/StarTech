@@ -17,7 +17,7 @@ if(pages == "index.html"){
     console.log("hello");
       photoRotate.style.position = "absolute";
 
-      photoRotate.style.marginTop ="850px";
+      photoRotate.style.marginTop ="935px";
 
 
   } else {

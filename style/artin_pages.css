@@ -26,13 +26,14 @@ section{
 #cart{
     width: 40px;
     position: relative;
-    left: 66%; 
+
 }
 .img_wrap{
 
     background-color: black;
     border-color: gold;
     border-style: solid;
+    background-repeat: repeat;
 
 }
 .text{
@@ -77,7 +78,7 @@ iframe{
     max-width: 100%;
 }
 #bcit3{
-    margin-top: 15px;
+    margin-top: 155px;
 max-width: 100%;
     border: double 2px gold;
 }

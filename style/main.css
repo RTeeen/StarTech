@@ -64,11 +64,12 @@ nav {
   background-size: contain;
   background-repeat: repeat;
   margin: auto;
+
   overflow: hidden;
   z-index: 500;
 }
 
-nav a.text {
+nav a {
   position: relative;
   padding-top: 7px;
   padding-bottom: 7px;
@@ -87,7 +88,7 @@ nav a.text {
 }
 nav a.cart {
   position: absolute;
-  right: 70px;
+  right: 25px;
 }
 #cart{
   width: 40px;
