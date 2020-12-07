@@ -13,10 +13,10 @@ window.onscroll = function() {
 if(pages == "index.html"){
   photo.style.transform = "rotate("+window.pageYOffset/20+"deg)";
   console.log(window.pageYOffset);
-  if ( window.pageYOffset > 1000 ) {
+  if ( window.pageYOffset > 850 ) {
     console.log("hello");
       photoRotate.style.position = "absolute";
-      photoRotate.style.marginTop ="1080px";
+      photoRotate.style.marginTop ="850px";
   } else {
     photoRotate.style.position = "fixed";
     photoRotate.style.marginTop ="80px";
