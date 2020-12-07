@@ -106,10 +106,52 @@ section img.product {
   padding: 10px 20px;
   font-size: 20px;
   border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  margin: auto;
+  right: 20px;
+  left: 20px;
 }
 .sspecs {
   color: #ffd700;
   text-decoration: underline;
   font-weight: bold;
   margin-left: 10px;
+}
+
+/* Cart pages */
+.cart_section {
+  padding: 50px 20%;
+  margin-top: 70px;
+}
+.cartpage {
+  display: grid;
+  grid-template:
+    "fst  tt" 1fr
+    "snd  tt" 1fr /
+    1fr 1fr;
+  grid-gap: 1em;
+}
+.cob {
+  border: double;
+  border-color: #ffd700;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.fst {
+  grid-area: fst;
+}
+
+.snd {
+  grid-area: snd;
+}
+
+.tt {
+  grid-area: tt;
+  position: relative;
+}
+
+.cobwrap {
+  justify-content: space-around;
 }
