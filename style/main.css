@@ -68,7 +68,7 @@ nav {
   z-index: 500;
 }
 
-nav a {
+nav a.text {
   position: relative;
   padding-top: 7px;
   padding-bottom: 7px;
@@ -84,6 +84,15 @@ nav a {
   background-position: 0.0em 100%;
   transition: background-size 0.25s ease-in;
   font-size: 0.8em;
+}
+nav a.cart {
+  position: absolute;
+  right: 70px;
+}
+#cart{
+  width: 40px;
+  position: relative;
+  left: 66%; 
 }
 a:hover {
   background-size: 100% 88%;
